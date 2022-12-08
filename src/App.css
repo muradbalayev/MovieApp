@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+	background: #ffffff;
+	color: #141414;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.search div{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.search input{
+    border-radius: 0;
+    width: 60%;
+    border: 1px solid black;
+    height: 25px;
+}
+
+.search p{
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+	position: relative;
+    margin-top: 10px;
+    width: 560px;
+    height: 190px;
+    padding: 20px;
+    background-color: #ffeedb;
+}
+
+.image-container *{
+    margin: 5px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.image-container img{
+    width: 100px;
+}
+
+.image-container:hover {
+	cursor: pointer;
+}
+.overlay {
+	background-color: #496ddb;
+    width: 200px;
+    
+}
+.container-fluid{
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+.col{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #496DDB;
+    color: #ffeedb;
+    font-size: 45px;
+    font-family: 'Luckiest Guy', cursive;
+    padding: 0;
+    margin: 0;
+}
+.col h1{
+    width: 65%;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.remove{
+    width: 400px;
+    position: absolute;
+    left: 65%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.remove button{
+    border: none;
+    background-color: #496DDB;
+    color: white;
+    padding: 5px;
+}
+
+.remove *{
+    margin: 5px;
+}
+
+.remove-list{
+    background-color: transparent;
+}
+
+.removeElement{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.removeElement *{
+    margin: 0;
+    padding: 0;
+}
+
+.removeElement h4{
+    font-size: 20px;
+    font-weight: 400;
+}
